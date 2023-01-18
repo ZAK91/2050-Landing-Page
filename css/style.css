@@ -1,3 +1,10 @@
 .mynav{
     background-color: #4741AF;
 }
+
+.nav-link,.navbar-brand{
+    color :white ;
+}
+#navbarNav{
+    justify-content: end;
+}
