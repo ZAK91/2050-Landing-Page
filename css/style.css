@@ -1,10 +1,38 @@
-.mynav{
-    background-color: #4741AF;
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
+
 
 .nav-link,.navbar-brand{
     color :white ;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    font-size: 40px;
 }
 #navbarNav{
     justify-content: end;
+}
+.mybackground{
+    background-color: #4741AF;
+
+}
+.banner-heading{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.23;
+}
+.subheading{
+    font-size: 24px;
+    font-weight: 400;
+}
+.banner-btn{
+    text-decoration: none;
+    color: white;
+    padding: 15px 55px;
+    background-color: #6c63ff;
+    border-radius: 35px;
+    font-weight: 700;
 }
