@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', sans-serif;
-    color: white;
 }
 
 
@@ -23,10 +22,14 @@ body{
     font-size: 72px;
     font-weight: 700;
     line-height: 1.23;
+    color: white;
+
 }
 .subheading{
     font-size: 24px;
     font-weight: 400;
+    color: white;
+
 }
 .banner-btn{
     text-decoration: none;
@@ -36,3 +39,21 @@ body{
     border-radius: 35px;
     font-weight: 700;
 }
+.sub-title{
+    color:  #6c63ff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.text-title{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.p1{
+    font-size: 18px;
+    font-weight: 400;
+}
+.img-left{
+    margin-left: -38;
+}
+
