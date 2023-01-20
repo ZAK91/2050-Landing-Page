@@ -64,3 +64,25 @@ body{
     text-decoration: none;
     margin-top: 20px;
 }
+
+.img-rounded-background{
+    background-color:#F3F9FB;
+    border-radius: 50% ;
+
+}
+
+.img-rounded-background img{
+    margin-top: -120px;
+}
+
+.service-title{
+    font-weight: 700;
+    font-size: 21px;
+
+}
+.service-icon{
+    background: #6c63ff;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+}
