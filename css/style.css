@@ -54,6 +54,13 @@ body{
     font-weight: 400;
 }
 .img-left{
-    margin-left: -38;
+    margin-left: -500px;
 }
 
+.text-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 20px;
+}
