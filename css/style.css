@@ -86,3 +86,15 @@ body{
     border-radius: 50%;
     color: white;
 }
+.mycard:hover .service-icon{
+    margin-left: 50px;
+}
+.service-icon{
+    -webkit-transition-duration: 1s;
+}
+.mybackground2{
+    background-color:#F3F9FB ;
+}
+.myborder-bottom{
+    border-bottom: 3px solid #6c63ff;
+}
