@@ -98,3 +98,11 @@ body{
 .myborder-bottom{
     border-bottom: 3px solid #6c63ff;
 }
+.product-card:hover{
+    margin-top:  -20px; 
+
+}
+
+.product-card{
+    -webkit-transition-duration: 2s;
+}
