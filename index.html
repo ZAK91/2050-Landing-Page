@@ -17,7 +17,7 @@
 
 <body>
     <!-- Start nav -->
-    <div class="mybackground fixed-top">
+    <div class=" mynav mybackground fixed-top">
         <div class="container ">
 
 
@@ -349,8 +349,42 @@
             <div class="col-lg-6">
                 <h2 class="sub-title mt-3">Features</h2>
                 <h1 class="text-title mb-5"> Top Features that Keep Us Ahed</h1>
-                <p class="p3">Phasellus seiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                
+                <p class="p1">Phasellus seiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <div class="row mt-5 pe-4 ">
+                    <div class="col-lg-2 pt-4">
+                        <span class="service-icon pt-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                              </svg>
+                        </span>
+                    </div>
+                    <div class="col-lg-10">
+                        <h2 class="service-title"> Developer Friendly Design</h2>
+                        <p class="p1 text-secondary">Phasellus seiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam</p>
+                    </div>
+                   
+
+                </div>
+                <div class="row mt-5 pe-4">
+                    <div class="col-lg-2 pt-4">
+                        <span class="service-icon pt-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-bezier" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+                                <path
+                                    d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="col-lg-10">
+                        <h2 class="service-title"> 
+                            Best User Experience</h2>
+                        <p class="p1 text-secondary">Phasellus seiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam</p>
+                    </div>
+                   
+
+                </div>
             </div>
             <div class="col-lg-6">
                 <img src="img/12.png" alt="">
@@ -361,7 +395,17 @@
 
     <!-- End Features Section -->
 
-
+    <!-- Scroll navbar -->
+    <script>
+        window.addEventListener('scroll',(e)=>{
+          const nav = document.querySelector('.mynav');
+          if(window.pageYOffset>0){
+            nav.classList.add("shadow");
+          }else{
+            nav.classList.remove("shadow");
+          }
+        });
+      </script>
 
 
 
